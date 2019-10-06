@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Head todo la info que es para el navegador y no se ve, salvo el titulo. -->
+    <meta charset="UTF-8">
+    <title>Globo Rojo</title>
+    <!-- Estilos de Bootstrap que es codigo responsive y visual ya escrito por otro. -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    <!-- codigo de colores y estilos escrito por nosotros -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Tipografia openSans -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    <!-- esto es para que el navegador se de cuenta cuando estamos en un celuar o tableta-->
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed&display=swap" rel="stylesheet">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="shortcut icon" href="favicon.ico" />
+</head>
+<!-- <body> Todo lo que se ve en la pantalla del usuario -->
+
+<body>
+    <header>
+        <div class="container">
+            <div class="row top">
+                <!-- en esta linea cambiamos nuestro logo. -->
+                <div class="col-md-4">
+                    <a href="#home" data-ancla="home" class="off">
+                        <img src="images/LOGO.png" alt="" class="logo"></a>
+                </div>
+                <div class="col-md-3"></div>
+                <div class="col-md-5">
+                    <ul class='botonera'>
+                        <li><a href="#nosotros" data-ancla="nosotros">Quienes somos</a></li>
+                        <li><a href="#servicios" data-ancla="servicios">Nuestrxs Árboles</a></li>
+                        <li><a href="#contacto" data-ancla="contacto">Contacto</a></li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="principal vertical-centered-text" id="home">
+        <div class="col-md-8 cta">
+            <h1>Taller de Cine Globo Rojo</h1>
+            <div class="shadow">
+                <h4>Había una vez... el cine y la niñez</h4>
+                <p>Globo Rojo es un taller cuyo objetivo es que los chicxs realicen obras audiovisuales de manera integral, en una práctica artística de carácter colectivo que privilegie el juego, la exploración, el respeto y valoración por el otro. </p>
+                <a href="https://www.facebook.com/globorojocineparachicos/" class="btn btn-primary orange">ENCONTRANOS</a>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="nosotros orange" id="nosotros">
+        <div class="container">
+            <h1>Sobre nosotros</h1>
+            <p>“Globo Rojo”, Taller de cine y artes audiovisuales para niñ@s, ofrece un espacio de de aprendizaje y creación artística para pequeños cuyo acceso a la cultura se encuentra vulnerado. Se trata de un proyecto de extensión, desarrollado por docentes
+                y estudiantes de la Facultad de Bellas Artes de la Universidad Nacional de La Plata. El taller funciona en la Casa del Niño "Refugio del Ángel", en el barrio de Tolosa (116 y 530). Todos los viernes, desde hace 6 años niñxs y docentes
+                exploran materiales, recursos estéticos, aprenden a mirar una imagen, a escuchar(se) y escuchar a otrxs, etc.
+
+            </p>
+        </div>
+    </div>
+
+
+    <div class="container servicios" id="servicios">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Nuestros Proyectos</h1>
+            </div>
+        </div>
+        <div class="row images">
+            <div class="col">
+                <h3>Lxs Arboles de mi barrio</h3>
+                <p>Descubrí con nosotrxs los distintos tipos de arboles, arbustos y plantas que pueblan Tolosa</p>
+                <div class="embed-responsive embed-responsive-1by1">
+                    <iframe class="embed-responsive-item" src="https://www.google.com/maps/d/u/2/embed?mid=1Eh6pPem0xoosS-SZefTbLGNHtqEbf4Oo" width="1200" height="600"></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="row images">
+            <div class="col-md-3">
+                <img src="images/camera.png" alt="">
+                <h3>Taller</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae rem eius sed dolorem illum, laudantium doloribus a nihil facere voluptate deserunt doloremque, fugiat consequuntur natus est pariatur tempora explicabo asperiores.</p>
+            </div>
+            <div class="col-md-3">
+                <img src="images/video-camera (1).png" alt="">
+                <h3>Producciones</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore magnam nemo repellendus unde quaerat aspernatur? Maxime deserunt aliquam recusandae nulla distinctio illo reiciendis repellat eveniet quae explicabo? Nisi, eum quas!</p>
+            </div>
+            <div class="col-md-3">
+                <img src="images/movie.svg" alt="">
+                <h3>Proyecciones</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem neque at eveniet accusamus incidunt sint a officiis, esse, quae tempora nisi! Quasi atque tempore beatae, nihil minus sed fugit eligendi.</p>
+            </div>
+            <div class="col-md-3">
+                <img src="images/tickets.svg" alt="">
+                <h3>Paseos</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed doloribus molestiae nulla corporis minus, quos laboriosam exercitationem eaque dolorum dolorem nihil, saepe ut ea placeat assumenda officia! Odio, minima perferendis!</p>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="container" id="contacto">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>CONTACTO</h1><br><br>
+
+                </div>
+            </div>
+            <div class="row social">
+                <div class="col-3"></div>
+                <div class="col-2">
+                    <a href="mailto:globo.rojo.arte@gmail.com"><img src="images/001-mail.svg" alt=""></a>
+                </div>
+
+                <div class="col-2">
+                    <a href="https://www.facebook.com/globorojocineparachicos/" target="_blank"><img src="images/002-facebook-logo.svg" alt=""></a>
+                </div>
+
+
+                <div class="col-2">
+                    <a target="_blank" href="https://www.instagram.com/globo.rojo.cine/?hl=es-la"><img src="images/003-instagram-social-network-logo-of-photo-camera.svg" alt=""></a>
+                </div>
+            </div>
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3">© 2019 Copyright: Globo Rojo
+                <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+            </div>
+            <!-- Copyright -->
+
+
+    </footer>
+
+    <!-- Codigo que hace que las acciones de botones y cuestiones responsive funcionen-->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+    <script>
+        // A $( document ).ready() block.
+        $(document).ready(function() {
+            $('.top a').click(function(e) {
+                e.preventDefault();
+                var offset = $($(this).attr('href')).offset().top;
+                $('html, body').animate({
+                    scrollTop: offset
+                }, 600);
+                return false;
+            });
+
+        });
+    </script>
+</body>
+
+</html>
